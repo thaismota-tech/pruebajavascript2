@@ -74,3 +74,21 @@ console.log("Son números negativos: " + negativos);
 console.log("Son números pares: " + pares);
 
 //EJERCICIO 5
+let todosNumeros = [];
+let arrayNumeros1 = [];
+let arrayNumeros2 = [];
+
+for (let i = 1; i <= 10; i++) {
+    let num = Number(prompt(`Ingrese un número ${i} (del 1-500):`));
+    if (num >=1 && num<= 500) {
+    todosNumeros.push(num); {
+    if (num <= 250) {
+    arrayNumeros1.push (num);
+    } else {
+    arrayNumeros2.push (num);
+    }
+    }
+}
+console.log("Todos los números:", todosNumeros);
+console.log("Rango 1-250:", arrayNumeros1);
+console.log("Rango 251-500:", arrayNumeros2);}
