@@ -54,8 +54,21 @@ switch (color) {
 }
 
 // EJERCICIO 4
-const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const result = numeros.filter(checkConditions);
-function checkConditions(numeros) {
-  return numero / 2 === 0;
+let positivos = 0;
+let negativos = 0;
+let pares = 0;
+
+for (let i = 1; i<10; i++) {
+    let num = Number(prompt(`Ingrese el número ${i}:`));
+    if (num > 0) {
+    positivos++;
+    } else if (num < 0) {
+    negativos++;
+    }
+    if (num % 2 ===0) {
+    pares++;
+    }
 }
+console.log("Son números positivos: " + positivos);
+console.log("Son números negativos: " + negativos);
+console.log("Son números pares: " + pares);
