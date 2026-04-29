@@ -52,3 +52,10 @@ switch (color) {
   default:
     console.log("Color inválido");
 }
+
+// EJERCICIO 4
+const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const result = numeros.filter(checkConditions);
+function checkConditions(numeros) {
+  return numero / 2 === 0;
+}
