@@ -1,8 +1,8 @@
 // EJERCICIO 1
-let notas = [10, 7, 8];
-let mediaDeLasNotas = notas.reduce(function (acumulador, num) {
-  return acumulador + num / 3;
-}, 0);
+let n1 = Number(prompt("Introduce la primera nota:"));
+let n2 = Number(prompt("Introduce la segunda nota:"));
+let n3 = Number(prompt("Introduce la tercera nota:"));
+let mediaDeLasNotas = (n1 + n2 + n3) / 3;
 console.log(mediaDeLasNotas);
 if (mediaDeLasNotas >=7) {
 console.log("SOBRESALIENTE");
@@ -72,3 +72,5 @@ for (let i = 1; i<10; i++) {
 console.log("Son números positivos: " + positivos);
 console.log("Son números negativos: " + negativos);
 console.log("Son números pares: " + pares);
+
+//EJERCICIO 5
